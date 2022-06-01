@@ -9,7 +9,7 @@ import re
 import requests
 import os
 
-PORT = int(os.environ.get('PORT', 5000))
+PORT = int(os.getenv('PORT'))
 
 # Enable logging
 logging.basicConfig(format='%(asctime)s - %(name)s - %(levelname)s - %(message)s',
