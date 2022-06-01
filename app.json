@@ -6,7 +6,7 @@
     "amazon",
     "affiliate"
   ],
-  "success_url": "https://telegram.dog/AmazonLinkGenbot",
+  "success_url": "/welcome",
   "website": "https://github.com/jakeedot",
   "repository": "https://github.com/jakeedot/telegram-affiliate-bot",
   "env": {
@@ -47,7 +47,7 @@
   "formation": {
     "worker": {
       "quantity": 1,
-      "size": "free"
+      "size": "standard-1X"
     }
   }
 }
