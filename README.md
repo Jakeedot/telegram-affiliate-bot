@@ -32,6 +32,11 @@ There are 4 required env variables that must be configured in Heroku to work.
 
 If you want to create your own bot, fork this repo and use it as your source repository on Heroku. To do that, connect GitHub to Heroku and select the forked repo.
 
+#### Deploy to Heroku
+
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://www.heroku.com/deploy?template=https://github.com/Jakeedot/telegram-affiliate-bot)
+
+
 ## Useful links
 
 ### Heroku
