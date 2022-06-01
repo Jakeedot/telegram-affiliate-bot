@@ -1,7 +1,7 @@
 
-# Affiliate link generator - Telegram Bot
+# Amazon affiliate link generator - Telegram Bot
 
-This simple python bot generates affiliate links from telegram messages. It can work added in a group or speaking directly to it. It would recognize any Amazon URL in any message and reply with the affiliate URL.
+Telegramn bot to generates affiliate links from telegram messages. It can work added in a group or speaking directly to it. It would recognize any Amazon URL in any message and reply with the affiliate URL.
 
 The setup is done using Heroku as the host for the bot.
 
