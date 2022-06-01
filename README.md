@@ -1,5 +1,5 @@
 
-# Amazon affiliate link generator - Telegram Bot
+# Amazon affiliate link generator Telegram bot
 
 Telegram bot to generates affiliate links from telegram messages. It can work added in a group or speaking directly to it. It would recognize any Amazon URL in any message and reply with the affiliate URL.
 
@@ -16,7 +16,7 @@ You set the base URL using a env variable. this bot can automatically detect the
 
 If you find different URS schemes, they can be added to the regular expression and will work.
 
-## Env variables
+## Req variables
 
 There are 4 required env variables that must be configured in Heroku to work.
 
@@ -31,6 +31,7 @@ There are 4 required env variables that must be configured in Heroku to work.
 ## How to create your own bot
 
 If you want to create your own bot, fork this repo and use it as your source repository on Heroku. To do that, connect GitHub to Heroku and select the forked repo.
+
 
 #### Deploy to Heroku
 
