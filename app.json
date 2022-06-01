@@ -1,0 +1,53 @@
+{
+  "name": "Telegram Affliate Bot",
+  "description": "Telegram's Open Source Amazon Affiliate Bot. Create your Fork now.",
+  "keywords": [
+    "telegram",
+    "amazon",
+    "affiliate"
+  ],
+  "success_url": "https://telegram.dog/AmazonLinkGenbot",
+  "website": "https://github.com/jakeedot",
+  "repository": "https://github.com/jakeedot/telegram-affiliate-bot",
+  "env": {
+    "WEBHOOK": {
+      "description": "Leave this as it is!",
+      "value": "ANYTHING"
+    },
+    "aafiliate_tag": {
+      "description": "Your affiliate amazon tag",
+      "value": ""
+    },
+    "baseURL": {
+      "description": "Amazon website link, for ex: amazon.es",
+      "value": ""
+    },
+    "HEROKU_URL": {
+      "description": "The URL of the Heroku app from Heroku.com",
+      "value": ""
+    },
+    "TOKEN": {
+      "description": "Telegram bot token API from @Botfather",
+      "value": "",
+    }
+  },
+  "addons": [
+    {
+      "plan": "heroku-postgresql",
+        "options": {
+          "version": "12"
+        }
+      }
+  ],
+  "buildpacks": [{
+    "url": "https://github.com/Aritzherrero4/AffiliateTelegramBot"
+  }, {
+    "url": "heroku/python"
+  }],
+  "formation": {
+    "worker": {
+      "quantity": 1,
+      "size": "free"
+    }
+  }
+}
