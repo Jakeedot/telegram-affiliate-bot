@@ -14,7 +14,7 @@
       "description": "Leave this as it is!",
       "value": "ANYTHING"
     },
-    "aafiliate_tag": {
+    "affiliate_tag": {
       "description": "Your affiliate amazon tag",
       "value": ""
     },
@@ -47,7 +47,7 @@
   "formation": {
     "worker": {
       "quantity": 1,
-      "size": "standard-1X"
+      "size": "free"
     }
   }
 }
