@@ -10,10 +10,6 @@
   "website": "https://github.com/jakeedot",
   "repository": "https://github.com/jakeedot/telegram-affiliate-bot",
   "env": {
-    "WEBHOOK": {
-      "description": "Leave this as it is!",
-      "value": "ANYTHING"
-    },
     "affiliate_tag": {
       "description": "Your affiliate amazon tag",
       "value": ""
@@ -28,22 +24,15 @@
     },
     "TOKEN": {
       "description": "Telegram bot token API from @Botfather",
-      "value": "",
+      "value": ""
     }
   },
-  "addons": [
+  "addons": [],
+  "buildpacks": [
     {
-      "plan": "heroku-postgresql",
-        "options": {
-          "version": "12"
-        }
-      }
-  ],
-  "buildpacks": [{
-    "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest"
-  }, {
     "url": "heroku/python"
-  }],
+    }
+  ],
   "formation": {
     "worker": {
       "quantity": 1,
